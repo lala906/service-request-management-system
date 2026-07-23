@@ -18,6 +18,7 @@ const corsOptions = {
   origin: [
     "http://localhost:3000",
     "http://localhost:3002",
+     "https://service-request-management-system-c-nine.vercel.app",
   ],
   credentials: true,
 };
