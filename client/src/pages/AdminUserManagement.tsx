@@ -79,7 +79,7 @@ const fetchUsers = async () => {
             </thead>
             <tbody className="bg-white divide-y divide-slate-200">
               {users.map((u) => (
-                <tr key={u.id} className="hover:bg-slate-50/50 transition">
+                <tr key={u._id} className="hover:bg-slate-50/50 transition">
                   <td className="px-6 py-4 whitespace-nowrap text-sm font-semibold text-slate-900">{u.name}</td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-slate-500">{u.email}</td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm">
